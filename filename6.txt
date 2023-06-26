@@ -1,0 +1,32 @@
+
+
+ Pro_No	Pro_nm			Pro_qty	Pro_price		Dis	GST	Net_price 
+
+1	sev tameta			10	40		80		20		340
+2	Dahi fry			7	50		70		17.5		297.5
+3	mung dal			1	45		0		2.25		47.25
+4	sev kanda			5	130		130		32.5		552.5
+5	panner tika			2	150		60		15		255
+
+Total Item ::->25
+
+
+__________________________________________________________________________________
+
+Grand total ::1492.25
+
+
+
+ Pro_No	Pro_nm			Pro_qty	Pro_price		Dis	GST	Net_price 
+
+1	sev tameta			4	40		0		8		168
+5	panner tika			7	150		210		52.5		892.5
+5	panner tika			8	150		240		60		1020
+
+Total Item ::->19
+
+
+__________________________________________________________________________________
+
+Grand total ::2080.5
+
