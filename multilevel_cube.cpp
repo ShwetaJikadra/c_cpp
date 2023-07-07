@@ -3,7 +3,7 @@ using namespace std;
 class a
 {
    public:
-       b()
+       a()
        {
         cout<<"Cube of :"<<endl;
        }
