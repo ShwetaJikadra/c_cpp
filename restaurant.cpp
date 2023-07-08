@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
+int no,q,ti=0;
 class Resto
 {
     public:
        int p[10]={100,150,120,35,30,60,80,200,70,10};
-       int o,n;
-       float Total=0.0;
+      
        string itm[10]={"veg. manchuriam","hakka Nudles","paneer paratha","samosa Tukda","vada-pav","Ch. Fenki","Gujrati","Pizza","cheese sendwitch","masala pav"};
    Resto()
    {
@@ -19,18 +19,52 @@ class Resto
     cout<<"_______________________________"<<"|"<<"___________________________"<<endl<<endl;
     for(int i=0;i<10;i++)
     {
-        cout<<"\t "<<p[i]<<"\t\t\t\t"<<itm[i]<<endl;
+        cout<<"\t "<<i<<"\t"<<p[i]<<"\t\t\t\t"<<itm[i]<<endl;
         cout<<"_______________________________"<<"|"<<"_________________________"<<endl;
     }
    }
-
-   void order()
+   order()
    {
-     
-   int n,
+      int yn;
+      
+      cout<<"\nEnter Your order Number :";
+      cin>>no;
+      
+      cout<<"\nEnter Quentity :";
+      cin>>q;
+      ti++;
+    for(i=0;i<=100;i++)
+   {
+      cout<<"\n1. yes";
+      cout<<"\n2. No";
+      cout<<"\nIf you want to other order ?";
+      cin>>yn;
+      
+      if(yn==1)
+      {
+      cout<<"\nEnter Your order Number :";
+      cin>>no;
+      
+      cout<<"\nEnter Quentity :";
+      cin>>q;
+      ti++;
+      }
+      else
+      {
+         cout<<"\n\n***************Thanks for order*******************\n\n";
+         break;
+      }
+   }
+
 
 
    }
+   int getprice()
+   {
+     
+   }
+
+   
 
 };
 int main()
