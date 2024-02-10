@@ -1,0 +1,14 @@
+
+
+ Pro_No	Pro_nm			Pro_qty	Pro_price		Dis	GST	Net_price 
+
+10	Nuduls			11	80		176		44		748
+1	sev tameta			12	40		96		24		408
+
+Total Item ::->23
+
+
+__________________________________________________________________________________
+
+Grand total ::1156
+

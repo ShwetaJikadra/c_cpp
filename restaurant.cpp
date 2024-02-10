@@ -146,6 +146,9 @@ class Resto
 
       }
 }
+
+
+//Get the Bill of Your Order for Generate the  bill
 void get_bill()
 {
   
@@ -186,12 +189,14 @@ int main()
 {
    Resto r;
   char x;
-  
+  //Functionality for User 
   while(1)
   {
   cout<<"press y or Y for .... Continue"<<endl;
   cout<<"press n or N for .... Complete"<<endl;
-  cout<<"E for EXIT"<<endl;
+  cout<<"press M or m for .... Menu List"<<endl;
+  cout<<"press E or e for EXIT"<<endl;
+
   cout<<"You want to order continue ? :"<<endl;
   cin>>x;
   if(x=='y' || x=='Y')
@@ -206,9 +211,15 @@ int main()
    
     
   }
+  else if(x=='m' || x=='M')
+  {
+    Resto();
+  }
   else
   {
     exit(0);
   }
+  
+
   }
 }
